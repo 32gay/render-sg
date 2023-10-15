@@ -9,7 +9,7 @@ const { exec } = require('child_process');
 const { WebSocket, createWebSocketStream } = require('ws');
 const logcb = (...args) => console.log.bind(this, ...args);
 const errcb = (...args) => console.error.bind(this, ...args);
-const projectPageURL = `https://www.google.com`;
+const projectPageURL = `https://sgsg-9xas.onrender.com`;
 const uuid = (process.env.UUID || '1453aac3-62be-4457-9079-1c32c78ae33c').replace(/-/g, "");
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.b1ly.com:5555';
 const NEZHA_KEY = process.env.NEZHA_KEY || 'cTsypIPdfAIUj1p0hk';
